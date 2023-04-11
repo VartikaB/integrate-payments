@@ -20,7 +20,7 @@ export default function Home() {
     );
     console.log(data);
     var options = {
-      key: process.env.RAZORPAY_KEY, // Enter the Key ID generated from the Dashboard
+      key: "rzp_test_cARkSDvMdJFmJI", // Enter the Key ID generated from the Dashboard
       name: "Manu Arora Pvt Ltd",
       currency: data.currency,
       amount: data.amount,
